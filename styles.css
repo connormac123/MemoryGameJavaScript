@@ -1,0 +1,44 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #793737;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.options {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.memory-game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.memory-card {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #81455300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
